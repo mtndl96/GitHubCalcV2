@@ -29,5 +29,18 @@ namespace WindowsFormsApp1
             label7.Text = "=";
             label6.Text = Convert.ToString(sonuc);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double sayi1 = 0, sayi2 = 0, sonuc = 0;
+            sayi1 = Convert.ToDouble(txtSayi1.Text);
+            sayi2 = Convert.ToDouble(txtSayi2.Text);
+            sonuc = sayi1 - sayi2;
+            label3.Text = Convert.ToString(sayi1);
+            label4.Text = "-";
+            label5.Text = Convert.ToString(sayi2);
+            label7.Text = "=";
+            label6.Text = Convert.ToString(sonuc);
+        }
     }
 }
